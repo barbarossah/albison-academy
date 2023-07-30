@@ -1,0 +1,63 @@
+a {
+  text-decoration: none;
+  color: #ff6347;
+}
+
+.content-wrapper {
+  margin-top: 100px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.content-wrapper h1 {
+  text-align: center;
+  background-color: #00ffff;
+  margin: 10px;
+  padding: 10px 30px;
+  font-size: 48px;
+}
+
+.h1 {
+  text-shadow: 2px 2px gray, 3px 3px gray, 4px 4px gray;
+}
+
+.h1_2 {
+  text-shadow: 4px 4px 2px red, 8px 8px 2px yellow, 4px 4px 2px gray;
+}
+
+.h1_3 {
+  text-shadow: 0 2px gray, 0 4px gray, 0 6px gray, 0 8px gray;
+}
+
+.content-wrapper .h1_4 {
+  background-color: #808080;
+  color: white;
+  text-shadow: 3px 3px black, 5px 5px white, 7px 7px black;
+}
+
+div[class*='box'] {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  margin: 30px;
+  background-color: teal;
+}
+
+.box1 {
+  box-shadow: 5px 5px 5px red, 10px 10px 5px green, 15px 15px 5px yellow;
+}
+
+.box2 {
+  box-shadow: 5px 5px red, 10px 10px green, 15px 15px yellow;
+}
+
+.box3 {
+  box-shadow: inset 5px 5px 10px red, inset 10px 10px 10px green, inset 15px 15px 10px yellow;
+}
+
+.box4 {
+  box-shadow: 2px 2px gray, 4px 4px red, 6px 6px gray, 8px 8px red, 10px 10px gray;
+}
+
+.box5 {
+  box-shadow: -10px -10px red, -20px -20px gray, -30px -30px red, -40px -40px gray;
+}

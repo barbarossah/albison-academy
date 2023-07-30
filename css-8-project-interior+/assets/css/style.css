@@ -1,0 +1,535 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+body::-webkit-scrollbar  {
+  display: none;
+}
+
+.container {
+  margin: 0 120px;
+}
+
+.nav-panel {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.nav-panel ul {
+  display: flex;
+  gap: 40px;
+  padding: 26px 0 18px 0;
+}
+
+.nav-panel ul li {
+  list-style: none;
+  color: #292f36;
+}
+
+.nav-panel ul li a{
+  color: #292f36;
+  font-size: 19px;
+  font-weight: 30px;
+}
+
+.nav-panel ul li:hover a {
+  color: #cda274;
+}
+
+.header .main-image {
+  width: 100%;
+  height: 831px;
+  background-image: url('../media/main-image.jpg');
+  background-size: 100% 100%;
+  display: flex;
+  align-items: center;
+  border-bottom-left-radius: 290px;
+}
+
+.main-image .container {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  height: 386px;
+  letter-spacing: .22px;
+}
+
+h1 {
+  font-size: 80px;
+  line-height: 96px;
+  font-weight: 400;
+}
+
+.main-image .container  p {
+  margin: 19px 0 35px;
+  font-size: 22px;
+  line-height: 33px;
+}
+
+button {
+  align-self: flex-start;
+  font-size: 18px;
+  letter-spacing: .72px;
+  padding: 22px 17px 22px 34px;
+  background-color: #292F36;
+  border-radius: 18px;
+  color: white;
+}
+
+/* INTERIOR DESIGN START */
+
+.services {
+  display: flex;
+
+}
+
+.services > * {
+  width: 33%;
+}
+
+.service {
+  padding: 75px 50px 70px;
+  letter-spacing: 0.22px;
+  color: #4d5053;
+}
+
+.service h3 {
+  font-size: 25px;
+  line-height: 39px;
+  font-weight: 400;
+  color: #292F36;
+  text-align: center;
+}
+
+.services p {
+  margin: 18px 0 58px;
+  text-align: center;
+  font-size: 22px;
+  line-height: 33px;
+}
+
+.services button {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 98px;
+  letter-spacing: 0.36px;
+  color: #4d5053;
+  background-color: white;
+}
+
+.services button * {
+  vertical-align: middle;
+
+}
+
+/* INTERIOR DESIGN END */
+
+/* ABOUT US START */
+.about-us {
+  display: flex;
+  margin-top: 100px;
+}
+
+.about-us_info {
+  width: 50%;
+  padding-right: 180px;
+  letter-spacing: .22px;
+}
+
+.about-us_info .contact {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.phone-ico {
+  width: 93px;
+  height: 93px;
+  border-radius: 50%;
+  background-color: #F4F0EC;
+}
+
+.phone-ico img {
+  padding: 30px;
+}
+
+.about-us_info h2 {
+  font-size: 50px;
+  line-height: 65px;
+  font-weight: normal;
+  margin-top: 40px;
+}
+
+.about-us p {
+  margin: 42px 0 40px;
+  font-size: 22px;
+  line-height: 33px;
+  letter-spacing: .22px;
+}
+
+.about-us .contact_text {
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: .22px;
+}
+
+.about-us button {
+  margin: 71px 0 37px;
+}
+
+.about-us_img {
+  width: 50%;
+  background: url('../media/interior-kitchen.jpg'), lightgray 50% / cover no-repeat;
+  border-radius: 0px 326px 0px 123px;
+}
+
+/* ABOUT US END */
+
+/* PEOPLE SAY START */
+
+.people-say {
+  background-color: #F4F0EC;
+  padding: 103px 51px 120.31px;
+  border-radius: 70px;
+  margin-top: 140.40px;
+}
+
+.people-say h2 {
+  text-align: center;
+  margin-bottom: 47px;
+  font-size: 45px;
+  font-weight: 58.5px;
+}
+
+.people-say .cards {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.people-say .card {
+  padding: 50px 75px 45px 35px;
+  width: 356px;
+  background-color: white;
+  border-radius: 30px;
+}
+
+.people-say_figcaption {
+  margin-left: 20px;
+}
+
+.people-say .card > * {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.people-say .people-say_img {
+  width: 77px;
+  height: 77px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.people-say .card p {
+  margin-top: 25px;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+/* PEOPLE SAY END */
+
+/* BRANDS START */
+
+.brands {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 139.61px;
+}
+
+/* BRANDS END */
+
+/* RECENT PROJECTS START */
+
+.recent-projects {
+  margin-top: 115px;
+  text-align: center;
+}
+
+.recent-projects h2 {
+  font-size: 47px;
+  line-height: 62.4px;
+}
+
+.recent-projects > p {
+  font-size: 22px;
+  line-height: 33px;
+  margin: 20px 0 71px;
+}
+
+.photo-cards {
+  display: flex;
+  text-align: initial;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  column-gap: 20px;
+  row-gap: 60px;
+}
+
+.photo-card {
+  width: 590px;
+  height: 756px;
+  
+}
+
+.recent-img {
+  width: 590px;
+  height: 661px;
+  background-size: cover;
+  background-color: #4d5053;
+  border-top-right-radius: 80px;
+}
+
+.img {
+  background-image: url('../media/interior-sofa.jpg');
+
+}
+
+.img2 {
+  background-image: url('../media/interior-table-set.jpg');
+}
+.img3 {
+  background-image: url('../media/interior-bed.jpg');
+}
+.img4{
+  background-image: url('../media/interior-bedroom.jpg');
+}
+
+.recent-figcaption {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 25px;
+}
+
+.recent-figcaption p:first-child {
+  font-size: 24px;
+  line-height: 37.5px;
+}
+
+.recent-figcaption p:first-child {
+  font-size: 22px;
+  line-height: 33px;
+}
+
+.recent_figcaption_img {
+  width: 70px; 
+  text-align: center;
+  height: 70px;
+  background-color: #F4F0EC;
+  padding: 27px 30px;
+  border-radius: 50%;
+}
+
+/* RECENT PROJECTS END */
+
+/* DATA START */
+
+.data {
+  background-color: #F4F0EC;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 140px 120px;
+  margin-top: 80px;
+}
+
+.data div {
+  width: 288px;
+  border-right: 1px solid #CDA274;
+  text-align: center;
+}
+
+.data div:last-child {
+  border-right: none;
+}
+
+.data div h3 {
+  font-size: 85px;
+  line-height: 127.5px;
+  letter-spacing: 1.7px;
+  color: #CDA274;
+}
+
+/* DATA END */
+
+/* BLOGS START */
+
+.blogs {
+  text-align: center;
+  margin-top: 145px;
+}
+
+.blogs h2 {
+  font-size: 48px;
+  line-height: 62.4px;
+  margin-bottom: 21px;
+}
+
+.blogs > p {
+  font-size: 22px;
+  font-weight: 33px;
+}
+
+.blogs-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 40px;
+  margin-top: 70px;
+}
+
+.blog-card {
+  text-align: initial;
+  width: 387px;
+  height: 515px;
+  border: 1px solid #e7e7e7;
+  padding: 21px 21px 40px;
+  border-radius: 62px;
+}
+
+.blog-card h3 {
+  font-size: 25px;
+  line-height: 35px;
+  margin-top: 14.6px;
+}
+
+.blog-card_img {
+  background-image: url('../media/interior-kitchen1.jpg');
+  background-size: cover;
+  border-radius: 45px 45px 0 0;
+  width: 345px;
+  height: 296.4px;
+  position: relative;
+}
+
+.blog-card_img p {
+  position: absolute;
+  background-color: white;
+  padding: 10px;
+  bottom: 29px;
+  left: 24px;
+  border-radius: 8px 8px 8px 0;
+}
+
+.blog-card_figcaption {
+  display: flex;
+  line-height: 52px;
+  margin-top: 10px;
+}
+
+.blog-card_figcaption .bttn {
+  background-color: #F4F0EC;
+  width: 52px;
+  height: 52px;
+  text-align: center;
+  margin: 0 0 0 auto;
+  border-radius: 50%;
+}
+
+/* BLOGS END */
+
+/* JOIN US START */
+
+.join-us {
+  margin-top: 141px;
+  text-align: center;
+  letter-spacing: .22px;
+  background-color: #292F36;
+  padding: 100px 0 95px;
+  color: white;
+  border-radius: 70px;
+}
+
+.join-us button {
+  background-color: #CDA274;
+}
+
+.join-us h2 {
+  font-size: 50px;
+  font-weight: 75px;
+}
+
+.join-us p {
+  font-size: 22px;
+  line-height: 33px;
+  margin: 9px 0 31px;
+}
+
+/* JOIN US END */
+
+/* CONTACTS START */
+
+.contacts {
+  margin-top: 130px;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.contacts > div {
+  display: inline-flex;
+  flex-direction: column;
+  height: 374px;
+  width: 25%;
+  /* align-items: center; */
+}
+
+.contacts div:first-child > img {
+  width: 177px;
+  height: 50px;
+}
+
+.contacts div:first-child div {
+  display: flex;
+  justify-content: start;
+  gap: 40px;
+  width: 393.36px;
+}
+
+.contacts div:first-child p {
+  margin: 15px 0 30px;
+}
+
+.contacts div:nth-child(2), .contacts div:nth-child(3) {
+  justify-content: space-between;
+  width: 210.72px;
+}
+
+.contacts div:nth-child(4) {
+  gap: 30px;
+  
+}
+
+.contacts div:nth-child(4) a {
+  color: black;
+}
+
+/* CONTACTS END */
+
+footer {
+  padding: 35.8px 0;
+  text-align: center;
+  margin-top: 110px;
+  border-top: 1px solid #e5e5e5;
+}

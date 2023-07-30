@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Document</title>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+    .nav-panel {
+      background-color: rgba(0, 0, 0, 0.614);
+      color: white; 
+      text-align: center; 
+      padding: 15px 0; 
+      margin: 0; 
+      position: relative;
+    }
+
+    .nav-panel__info {
+      width:100%; background-color: black; margin: 0; padding: 20px 0; position: absolute; top: -236px; z-index: 2;
+      transition: .2s;
+    }
+    .nav-panel:hover > div {
+      top: 49px;
+    }
+  </style>
+</head>
+<body>
+  <div class="nav-panel" id="nav-panel">show details
+    <div class="nav-panel__info">
+      <ul style="color: white; margin: 0;">
+        <li><p style="text-align: center; margin: 0px;">'tag' selektordan foydalanib stillang</p></li>
+        <li><p style="text-align: center; margin: 8px;">
+          1tadan koproq joylarda ishlatilgan stillarga 'class' selektordan foydalanib stillang</p>
+        </li>
+        <li><p style="text-align: center; margin: 8px;">id selektordan foydalanib 'h2'ni stillang</p></li>
+        <li><p style="text-align: center; margin: 8px;">inputlarni atributlari orqali tanlab yani 'attribute' selectorlari blan stillang</p></li>
+        <!-- <li><p style="text-align: center; margin: 8px;">google mapsdan joylashuvni qoyishingiz kerak eniga 100% bo'lishi kerak</p></li> -->
+        <!-- <li><p style="text-align: center; margin: 8px;">reset button kiritgan xamma malumotlarimizni o'chirib yuborishi kerak</p></li> -->
+        <!-- <li><p style="text-align: center; margin: 8px;">pocco web sahifasini ushbu tabdan ochadigan qiling</p></li> -->
+      </ul>
+    </div>
+  </div>
+
+  <!-- Main task -->
+
+  <div>
+    <h1>this div is pink and all text in this div is white</h1>
+    <h3>this h3 width background red</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, ex incidunt. <u>this is just u</u> reprehenderit consequatur earum et dolorum, maxime illo rerum numquam voluptatum ea sit suscipit velit error nostrum. Tempore, amet.
+    </p>
+  </div>
+
+  <h1 class="blue">This is blue h1 with gray background</h1>
+  <h1 class="green">This is green h1 with yellow background</h1>
+  <h1 class="blue">This is blue h1 with gray background</h1>
+  <h1 class="green">This is green h1 with yellow background</h1>
+  <h1 class="blue">This is blue h1 with gray background</h1>
+
+  <h2>this is chocolate h2</h2>
+  <h2 id="h2">this is h2 width id</h2>
+
+  <b>use attribute selector here</b>
+  <br>
+  <br>
+  <form action="#">
+    <label for="text">this is input type text</label>
+    <input type="text" id="text">
+    <br>
+    <br>
+    <label for="passkey">this is input type password</label>
+    <input type="password" id="passkey">
+  </form>
+  
+</body>
+</html>

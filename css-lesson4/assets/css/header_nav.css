@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #ff6347;
+}
+
+.nav-panel {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  border-bottom: 5px double #008000;
+  background-color: #ADD8E6;
+  color: #ff6347;
+  padding: 20px;
+  z-index: 5;
+}
+
+.nav-panel span {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+
+ul {
+  display: inline-block;
+
+}
+
+li {
+  display: inline-block;
+  margin: 0 10px;
+  padding: 0 15px;
+  border-bottom: 2px solid red;
+}
+

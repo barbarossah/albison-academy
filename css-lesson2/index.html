@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet">
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+    .nav-panel {
+      background-color: rgba(0, 0, 0, 0.614);
+      color: white; 
+      text-align: center; 
+      padding: 15px 0; 
+      margin: 0; 
+      position: relative;
+    }
+
+    .nav-panel__info {
+      width:100%; background-color: black; margin: 0; padding: 20px 0; position: absolute; top: -236px; z-index: 2;
+      transition: .2s;
+    }
+    .nav-panel:hover > div {
+      top: 49px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="nav-panel" id="nav-panel">show details
+    <div class="nav-panel__info">
+      <ul style="color: white; margin: 0;">
+        <li><p style="text-align: center; margin: 0px;">1-kartada shriftlar "Yellowtail"</p></li>
+        <li><p style="text-align: center; margin: 8px;">
+        harflar orasida joy bo'lishi kerak</p>
+        </li>
+        <li><p style="text-align: center; margin: 8px;">orqa fon '#f6d365' rangidan '#fda085' rangiga gradient bo'lishi kerak</p></li>
+        <li><p style="text-align: center; margin: 8px;">2 chiziqli bolishi kerak</p></li>
+        <li><p style="text-align: center; margin: 8px;">2-kartada shriftlar "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif</p></li>
+        <li><p style="text-align: center; margin: 8px;">orqa fon uchun rasm https://albison-css-two.netlify.app/background2.jpg</p></li>
+        <li><p style="text-align: center; margin: 8px;">qatorlar orasida joy bolishi kerak</p></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Main task section -->
+
+  <div class="gradient">
+    <h1 class="first-h1">tesla</h1> <!--nega blockdan chiqib ketvotti ? -->
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati enim perspiciatis laboriosam quis eveniet <span>architecto</span> odit aliquid corporis. Aperiam, laudantium?</p>
+    <button>buy</button>
+  </div>
+  <div class="background-image">
+    <h1 class="second-h1">Lorem, ipsum dolor.</h1>
+    <p class="last-p-tag">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae repudiandae et illo quas alias, odio ea neque eius ad accusantium assumenda velit reiciendis vitae cum eligendi minus omnis, quis dolore ullam! Dignissimos quaerat voluptatibus , quisquam ducimus corporis eligendi eum iste vero dolores molestiae! Fugit, quis quam. Perspiciatis ullam ea accusamus.</p>
+  </div>
+</body>
+</html>

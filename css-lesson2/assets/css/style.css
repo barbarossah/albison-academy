@@ -1,0 +1,42 @@
+.gradient {
+  display: inline-block;
+  width: 400px;
+  height: 300px;
+  font-family: 'Yellowtail', cursive;
+  letter-spacing: 10px;
+  background: linear-gradient(to right, #f6d365, #fda085);
+}
+
+.first-h1 {
+  font-size: 40px;
+  font-weight: 200;
+}
+
+
+.gradient p {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+span {
+  font-style: italic;
+  text-decoration: overline double;
+}
+
+.background-image {
+  width: 600px;
+  height: 300px;
+  background: url('./../media/bh_accretiondisk_sim_stationary_websize.gif') no-repeat center;
+  background-size: cover;
+  color: #fff;
+}
+
+.second-h1 {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 100;
+}
+
+.last-p-tag {
+  text-transform: uppercase;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  line-height: 40px;
+}
